@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     name: Publish site
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
     - name: Checkout main
