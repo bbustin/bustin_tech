@@ -1,11 +1,9 @@
 +++
-title = "First Post"
+title = "My experience being a lead"
 
 [taxonomies]
 tags = ["Work", "Mentoring"]
 +++
-# My Experience being a lead
-
 The other day I was on Lemmy and someone asked in [lemmy.world/c/programminghumor](https://lemmy.world/c/programminghumor) what being a Senior Software Engineer entails. Theirs was a comment below a meme of a senior dev gracefully and confidently diving into a firepit with spikes labeled "legacy code". This is how I responded.
 <!--more-->
 
