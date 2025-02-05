@@ -1,16 +1,81 @@
 # The URL the site will be built for
 base_url = "https://bustin.tech"
 
+# The title of the site
+title = "Bustin Tech"
+
+# The description of the site
+description = "My musings about technology"
+
+author = "Brian Bustin"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+theme = "hacker"
+
+# Whether to generate an Atom feed
+generate_feeds = true
+
+taxonomies = [
+    # You can enable/disable RSS
+    #{name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
+highlight_theme = "charcoal"
+
+# Whether to render emojis
+render_emoji = true
+
+# Whether footnotes are rendered in the GitHub-style (at the bottom, with back references) or plain (in the place, where they are defined)
+bottom_footnotes = true
 
 [extra]
 # Put all your custom variables here
+title_separator = "|" # set as |, -, _, etc
+
+logo = "images/logo.png"
+
+# Menu items
+menu = [{ url = "/about", name = "About" }, { url = "/tags", name = "Tags" }]
+
+language_code = "en-US"
+
+# Enable OpenGraph metadata
+opengraph = true
+
+timezone = "America/Los_Angeles"
+
+# Social links
+social_links = [
+  { platform = "github", user_id = "bbustin" },
+  { platform = "linkedin", user_id = "brianbustin" },
+  { platform = "feed", user_id = true },
+  # { platform = "keyoxide", user_id = "aspe:host:XXXXXXX" },
+  # { platform = "facebook", user_id = "" },
+  # { platform = "instagram", user_id = "" },
+  # { platform = "pinterest", user_id = "" },
+  # { platform = "twitter", user_id = "" },
+  # { platform = "stackoverflow", user_id = "" },
+  # { platform = "youtube", user_id = "" },
+  # { platform = "telegram", user_id = "" },
+]
+
+# JSON-LD metadata
+[extra.bio]
+gender = "male"
+employer_name = "Citrix"
+employer_url = "https://citrix.com"
+job_title = "Lead Software Engineer"
+links = [
+  "https://github.com/bbustin",
+  "https://linkedin.com/in/brianbustin",
+]

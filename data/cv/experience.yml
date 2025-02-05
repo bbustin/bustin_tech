@@ -1,0 +1,35 @@
+- employer: Citrix
+  title: Lead Software Engineer
+  location: Remote
+  start_date: 2023-08-01
+  end_date:
+  responsibilities:
+  - Design new software architecture to replace legacy multi-cloud demo provisioning system which had become difficult to maintain and expensive to run. The new architecture enforces simplicity, does not allow for tight coupling of its components, makes the architecture easier to reason about, is less expensive to run, is easily expandable to more clouds and demo provisioning types, and is significantly easier to maintain.
+  - Work with stakeholders early in the planning phase to ensure new demo system meets current needs and is positioned well to meet likely future needs.
+  - Plan migration plan from legacy demo provisioning system to new system using the strangler pattern. This allows for migrating parts of the system as they are finished and rolling any lessons learned into development and migration of subsequent parts.
+  - Work with engineering team to code the new demo provisioning system. Mentor co-workers and involve them in the design so they have a thorough understanding. Listen to suggestions from co-workers and integrate them into the design.
+  - Successfully migrate all demo types and clouds to the new system with no negative impact on end-users.
+- employer: Citrix
+  title: Senior Software Engineer
+  location: Remote
+  start_date: 2011-09-01
+  end_date: 2023-08-01
+  responsibilities:
+    - Create scalable microservices architecture leveraging Spring Boot on Google Cloud.
+    - Successfully work cross-team on critical projects with lots of gray areas and unknowns.
+    - Architect, develop, and deploy platform to deliver training with provision times over 120 times faster and captures over 360 times faster than previous solution.
+    - Code scalable RESTful middleware API in Python to orchestrate storage provisioning and VM deployment.
+    - Deploy services using Docker/Kubernetes, Fabric, and Vagrant.
+    - Develop lab environments and documentation used as an integral part of training courses.
+    - Serve as a subject matter expert for Citrix technologies.
+- employer: Perez-Abreu, Aguerrebere, Sueiro, and Torres
+  title: Information Systems Auditor / Systems Engineer
+  location: Coral Gables, Florida
+  start_date: 2007-01-01
+  end_date: 2011-09-01
+  responsibilities:
+    - Perform risk-based IT audits of banks, bank service providers, and healthcare providers.
+    - Present audit findings and mitigation plans to upper management and IT steering committees.
+    - Virtualize core company systems and serve as entire IT department.
+    - Establish and support business networks for company clients including their implementation, configuration and monitoring.
+    

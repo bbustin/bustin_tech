@@ -1,0 +1,37 @@
+{%- set disallows = [
+  "/404.html",
+  "/files/*"
+] -%}
+{%- set block_useragents = [
+  "GPTBot",
+  "ChatGPT-User",
+  "Google-Extended",
+  "PerplexityBot",
+  "Amazonbot",
+  "ClaudeBot",
+  "Omgilibot",
+  "FacebookBot",
+  "Applebot",
+  "anthropic-ai",
+  "Bytespider",
+  "Claude-Web",
+  "Diffbot",
+  "ImagesiftBot",
+  "Omgilibot",
+  "Omgili",
+  "YouBot"
+] -%}
+
+User-agent: *
+{%- for disallowed in disallows %}
+Disallow: {{ disallowed }}
+{%- endfor %}
+
+{%- for agent in block_useragents %}
+
+User-agent: {{agent}}
+Disallow: /
+{%- endfor %}
+
+Allow: /
+Sitemap: {{ get_url(path="sitemap.xml") }}

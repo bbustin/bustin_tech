@@ -1,0 +1,19 @@
+- type: Programming Languages
+  tools:
+    - Java
+    - Rust
+    - Python
+    - C
+- type: Frameworks
+  tools:
+    - Spring Boot
+- type: Clouds
+  tools:
+    - Google Cloud
+    - AWS
+    - Azure
+    - Citrix Cloud
+- type: Languages
+  tools:
+    - English
+    - Spanish

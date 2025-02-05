@@ -1,0 +1,60 @@
+- name: PMSA003i hardware driver
+  desc: Rust no_std driver for the Plantower PMSA003i particulate sensor.
+  technologies:
+    - Rust
+    - embedded-hal
+  link:
+    text: PMSA003i crate
+    url: https://crates.io/crates/pmsa003i
+  start_date: 2024-09-13
+  end_date: 2024-12-15
+- name: Climaduino
+  desc: Arduino-based thermostat and accompanying web controller. It was initially created to control a window AC unit to improve temperature and comfort control. I created a later version to control a central HVAC system and integrate with home automation systems using MQTT.
+  technologies:
+    - Python
+    - C
+    - Arduino
+  link:
+    text: Climaduino on Instructables
+    url: http://www.instructables.com/id/Introducing-Climaduino-The-Arduino-Based-Thermosta/
+  start_date: 2013-10-21
+  end_date: 2023-07-28
+- name: Tool to normalize phone numbers
+  desc: Python tool to take a list of phone numbers, try to extrapolate what country they are from, and then try to normalize their formatting. Has code to scrape Wikipedia to create metadata linking countries to their geographic region.
+  technologies:
+    - Python
+  link:
+    text: bbustin/phonenumber_lookup
+    url: https://github.com/bbustin/phonenumber_lookup
+  start_date: 2018-05-07
+  end_date: 2018-05-25
+- name: Added MacOS Support to Inkscape Silhouette plugin
+  desc: The Silhouette is a CNC cutting machine. There was a plugin for the Inkscape vector illustration program to allow sending SVGs to the device, but it would not work on MacOS. I contributed some code to make this work and to make installation easier.
+  technologies:
+    - Python
+  link:
+    text: Inkscape Silhouette MacOs support pull request
+    url: https://github.com/fablabnbg/inkscape-silhouette/pull/26/
+  start_date: 2016-08-28
+  end_date: 2016-08-30
+- name: Iron Timer
+  desc: Arduino-based timer to trigger a relay to open after a certain amount of time. Ability to reset the time by pressing a button. Seven-segment display shows the remaining time. I created this to automatically turn off a commercial iron so it would not be left on unsafely.
+  technologies:
+    - C
+    - Arduino
+  link:
+    text: bbustin/iron-timer
+    url: https://github.com/bbustin/iron-timer
+  start_date: 2018-04-02
+  end_date: 2018-04-02
+- name: DMARC Aggregate Parser
+  desc: Library to parse DMARC aggregate reports.
+  technologies:
+    - Rust
+    - XML
+    - DMARC (Domain-based Message Authentication, Reporting, and Conformance)
+  link:
+    text: dmarc_aggregate_parser crate
+    url: https://crates.io/crates/dmarc_aggregate_parser
+  start_date: 2019-05-22
+  end_date: 2024-10-02
